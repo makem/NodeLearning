@@ -45,7 +45,7 @@ var serverPort = 3000;
 var server = http.createServer(function(req, res) {
     var filePath = false;
     if (req.url == '/') {
-        filePath = 'public/index.html';
+        filePath = 'public/index2.html';
     } else {
         filePath = 'public' + req.url;
     }
